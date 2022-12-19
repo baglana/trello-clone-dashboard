@@ -1,0 +1,520 @@
+@font-face { font-family: Gotham; src: url('assets/fonts/gotham/GothamBook.ttf'); } 
+
+body, html {
+	background-color: #f5f7fa;
+	font-weight: 500;
+	font-family: helvetica;
+	margin: 0;
+	height: 1100px;
+}
+
+.section {
+	width: 50%;
+	float: left;
+	clear: right;
+	position: relative;
+	top: 30px;
+}
+
+.card {
+	background-color: #ffffff;
+	margin: 5px;
+	padding: 40px 45px 40px 45px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px 0px #eaeaea;
+}
+
+.card .header {
+	margin: 10px 0px 20px 0px;
+}
+
+.card .header > * {
+	display: inline-block;
+}
+
+.card .header p {
+	margin-top: 0;
+}
+
+.row {
+	display: block;
+	width: 100%;
+	height: 51px;
+	margin-bottom: 5px;
+}
+
+.row > * {
+	display: inline-block;
+}
+
+.avatar {
+	height: 45px;
+	width: 45px;
+	border-radius: 3px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.avatar span {
+	line-height: 45px;
+}
+
+.helvetica {
+	font-family: Helvetica;
+}
+
+.roboto {
+	font-family: Roboto;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.text-gray {
+	color: #98a0a6;
+}
+
+.f-s-15 {
+	font-size: 15px;
+}
+
+.last-seen {
+	float: right;
+	font-family: Helvetica;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+#users-activity .right .row p {
+	float: right;
+}
+
+#users-activity .right .row {
+	display: block;
+	vertical-align: middle;
+	position: relative;
+	left: 40px;
+}
+
+#users-activity .right .row p {
+	position: relative;
+	right: 40px;
+}
+
+.progress {
+	background-color: #f2f4f7;
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	position: relative;
+	top: 10px;
+	border-radius: 10px;
+}
+
+.bar {
+	height: 6px;
+	border-radius: 10px;
+	float: left;
+}
+
+.red {
+	background-color: #fa607e;
+}
+
+.blue {
+	background-color: #4680ff;
+}
+
+.ellipsis {
+	width: 20px;
+	float: right;
+	position: relative;
+	top: 0px;
+}
+
+.checkbox {
+	border: 1px #e6e8eb solid;
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	top: -30px;
+}
+
+.text {
+	line-height: 20px;
+	margin-left: 10px;
+}
+
+.deadline {
+	float: right;
+	position: relative;
+	top: 20px;
+	border-radius: 15px;
+	padding: 7px 15px 7px 15px;
+	font-size: 15px;
+}
+
+.task {
+	font-size: 20px;
+}
+
+#last-tasks .row {
+	margin-bottom: 15px;
+}
+
+.text-detail {
+	position: relative;
+	top: -15px;
+	color: #adb3b8;
+	font-family: Helvetica;
+}
+
+.right .deadline {
+	position: relative;
+	right: 45px;
+}
+
+#check {
+	width: 19px;
+	height: 15px;
+	position: relative;
+	top: 7px;
+	left: 3px
+}
+
+.yellow-text {
+	color: #fdb44d;
+}
+
+.yellow-bg {
+	background-color: #fff0db;
+}
+
+.blue-shape {
+	background-color: #4786ff;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	box-shadow: 0 10px 60px 1px #88b1fe;
+}
+
+.circle {
+	border-radius: 50%;
+	position: fixed;
+	right: 63px;
+	bottom: 40px;
+}
+
+.square {
+	border-radius: 5px;
+	margin: 50px 0 50px 0;
+}
+
+.navbar {
+	background-color: #fff;
+	height: 80px;
+	box-shadow: 0 1px 10px 0px #ddd;
+	line-height: 48px;
+	position: relative;
+}
+
+.navbar * {
+	display: inline-block;
+}
+
+.container {
+	margin: 0 70px 0 70px;
+}
+
+.top {
+	display: block;
+}
+
+.top img {
+	display: inline;
+	width: 100px;
+	margin-top: 30px;
+	position: relative;
+	left: -20px;
+}
+
+.top-text {
+	display: inline-block;
+	position: relative;
+	left: -20px;
+}
+
+.top-text h2 {
+	position: relative;
+	top: -15px;
+	font-size: 23px;
+	color: #545f76;
+}
+
+.top-text p {
+	position: relative;
+	top: -35px;
+	font-size: 15px;
+	color: #9ea1a4;
+}
+
+.top-text *{
+	display: block;
+}
+
+.top > h2 {
+	line-height: 110px;
+	color: #1b2437;
+	position: relative;
+	top: -50px;
+	margin-left: 25px;
+}
+
+
+.square img {
+	width: 20px;
+	position: relative;
+	top: -40px;
+}
+
+.four-squares {
+	margin-left: 30px;
+	margin-right: 5px;
+}
+
+.four-squares span {
+	display: block;
+	line-height: 15px;
+	height: 12px;
+	width: 28px;
+}
+
+.four-squares div {
+	width: 3px;
+	height: 3px;
+	border: 3px solid #e0e2e5;
+	border-radius: 1px;
+	margin: -2px -1px -2px -1px;
+}
+
+#search {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}
+
+#logo {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 20px;
+	width: 90px;
+}
+
+#expand {
+	position: absolute;
+	top: 30px;
+	width: 23px;
+	left: 54%;
+	transform: translateX(-54%);
+}
+
+#menu-button {
+	float: right;
+	width: 30px;
+	height: 25px;
+	top: 25px;
+	right: 20px;
+	padding: 27.5px 22px 27.5px 22px;
+	border-left: 1px #f3f4f5 solid;
+}
+
+#notification {
+	width: 30px;
+	height: 40px;
+	float: right;
+	padding: 20px 25px 20px 25px;
+}
+
+.card1 {
+	display: inline-block;
+	width: 19%;
+	float: left;
+}
+
+.card2 {
+	display: inline-block;
+	width: 38%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.card3 {
+	display: inline-block;
+	width: 19%;
+	float: right;
+}
+
+.switch {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	line-height: 140px;
+	font-size: 15px;
+}
+
+.switch * {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	width: 150px;
+}
+
+.switch-btn-l {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;	
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	font-weight: 600;
+	color: #53575A;
+	box-shadow: -2px 4px 20px 0px #ebebeb;
+	position: relative;
+	right: -4px;
+}
+
+.switch-btn-r {
+	border: 1px solid rgb(220, 224, 228);
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color: inherit;
+	color: rgb(148, 150, 154);
+}
+
+.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+}
+
+.card-bottom {
+	position: absolute;
+	bottom: 30px;
+}
+
+.card-bottom *{
+	display: inline-block;
+}
+
+.card-bottom p {
+	margin: 0 45px 0 8px;
+}
+
+.first-row-cards .card1 {
+	position: relative;
+}
+
+.cell {
+	display: inline-block;
+	float: left;
+	font-family: Gotham;
+	width: 49%;
+	position: relative;
+}
+
+.num {
+	color: #3a4266;
+	font-size: 40px;
+}
+
+.cell .progress {
+	position: relative;
+	top: -20px;
+}
+
+.cell .text-detail {
+	position: relative;
+	top: -20px;
+}
+
+.card-row {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	top: -20px;
+}
+
+.first-row-cards .card {
+	height: 330px;
+}
+
+.card1 canvas {
+	display: block;
+	margin: auto;
+}
+
+.card2 p {
+	margin: 0;
+}
+
+.card2-x-axis {
+	margin-top: 15px;
+}
+
+.card2-x-axis p {
+	margin-top: 5px;
+}
+
+.card2-x-axis img {
+	position: relative;
+	top: 3px;
+}
+
+.card2-x-axis * {
+	display: inline-block;
+}
+
+.card2-x-axis p:nth-child(2) {
+	position:absolute;
+	left:15%;
+	transform:translateX(-15%);
+}
+
+.card2-x-axis p:nth-child(3) {
+	position:absolute;
+	left:32%;
+	transform:translateX(-32%);
+}
+
+.card2-x-axis p:nth-child(4) {
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+.card2-x-axis p:nth-child(5) {
+	position:absolute;
+	left:67%;
+	transform:translateX(-67%);
+}
+
+.card2-x-axis p:nth-child(6) {
+	position:absolute;
+	left:85%;
+	transform:translateX(-85%);
+}
+
